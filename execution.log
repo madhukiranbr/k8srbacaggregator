@@ -1,0 +1,620 @@
+Processing NAME
+ignoring NAME
+Processing admin
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "rbac.authorization.k8s.io/aggregate-to-admin": "true"
+      }
+    }
+  ]
+}
+Processing aggregate-olm-edit
+null
+Processing aggregate-olm-view
+null
+Processing basic-user
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "authorization.openshift.io/aggregate-to-basic-user": "true"
+      }
+    }
+  ]
+}
+Processing cloud-credential-operator-role
+null
+Processing cluster-admin
+null
+Processing cluster-autoscaler
+null
+Processing cluster-autoscaler-operator
+null
+Processing cluster-autoscaler-operator:cluster-reader
+null
+Processing cluster-baremetal-operator
+null
+Processing cluster-debugger
+null
+Processing cluster-image-registry-operator
+null
+Processing cluster-monitoring-operator
+null
+Processing cluster-node-tuning-operator
+null
+Processing cluster-node-tuning:tuned
+null
+Processing cluster-reader
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "rbac.authorization.k8s.io/aggregate-to-cluster-reader": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "rbac.authorization.k8s.io/aggregate-to-view": "true"
+      }
+    }
+  ]
+}
+Processing cluster-samples-operator
+null
+Processing cluster-samples-operator-proxy-reader
+null
+Processing cluster-status
+null
+Processing console
+null
+Processing console-extensions-reader
+null
+Processing console-operator
+null
+Processing dns-monitoring
+null
+Processing edit
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "rbac.authorization.k8s.io/aggregate-to-edit": "true"
+      }
+    }
+  ]
+}
+Processing global-operators-admin
+null
+Processing global-operators-edit
+null
+Processing global-operators-view
+null
+Processing helm-chartrepos-viewer
+null
+Processing insights-operator
+null
+Processing insights-operator-gather
+null
+Processing kube-apiserver
+null
+Processing machine-api-controllers
+null
+Processing machine-api-operator
+null
+Processing machine-api-operator:cluster-reader
+null
+Processing machine-config-controller
+null
+Processing machine-config-controller-events
+null
+Processing machine-config-daemon
+null
+Processing machine-config-daemon-events
+null
+Processing machine-config-server
+null
+Processing marketplace-operator
+null
+Processing metrics-daemon-role
+null
+Processing multus
+null
+Processing multus-admission-controller-webhook
+null
+Processing network-diagnostics
+null
+Processing olm-operators-admin
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-4bca9f23e412d79d-admin": "true"
+      }
+    }
+  ]
+}
+Processing olm-operators-edit
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-4bca9f23e412d79d-edit": "true"
+      }
+    }
+  ]
+}
+Processing olm-operators-view
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-4bca9f23e412d79d-view": "true"
+      }
+    }
+  ]
+}
+Processing openshift-cluster-monitoring-admin
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-ec80c7aff541a927-admin": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-dde4314ecb73c236-admin": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-ec91e8bc27c81ed7-admin": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-70eafa6e059987b5-admin": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-70f7b566ae4e6a1c-admin": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-cda6b569020ccb44-admin": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-9d83214931a1a37e-admin": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-1dece667180a208d-admin": "true"
+      }
+    }
+  ]
+}
+Processing openshift-cluster-monitoring-edit
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-70f7b566ae4e6a1c-edit": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-cda6b569020ccb44-edit": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-9d83214931a1a37e-edit": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-1dece667180a208d-edit": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-ec80c7aff541a927-edit": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-dde4314ecb73c236-edit": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-ec91e8bc27c81ed7-edit": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-70eafa6e059987b5-edit": "true"
+      }
+    }
+  ]
+}
+Processing openshift-cluster-monitoring-view
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-9d83214931a1a37e-view": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-1dece667180a208d-view": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-ec80c7aff541a927-view": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-dde4314ecb73c236-view": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-ec91e8bc27c81ed7-view": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-70eafa6e059987b5-view": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-70f7b566ae4e6a1c-view": "true"
+      }
+    },
+    {
+      "matchLabels": {
+        "olm.opgroup.permissions/aggregate-to-cda6b569020ccb44-view": "true"
+      }
+    }
+  ]
+}
+Processing openshift-csi-snapshot-controller-runner
+null
+Processing openshift-dns
+null
+Processing openshift-dns-operator
+null
+Processing openshift-ingress-operator
+null
+Processing openshift-ingress-router
+null
+Processing openshift-sdn
+null
+Processing openshift-sdn-controller
+null
+Processing operatorhub-config-reader
+null
+Processing packagemanifests-v1-admin
+null
+Processing packagemanifests-v1-edit
+null
+Processing packagemanifests-v1-view
+null
+Processing prometheus-k8s-scheduler-resources
+null
+Processing registry-admin
+null
+Processing registry-editor
+null
+Processing registry-monitoring
+null
+Processing registry-viewer
+null
+Processing router-monitoring
+null
+Processing self-access-reviewer
+null
+Processing self-provisioner
+null
+Processing storage-admin
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "storage.openshift.io/aggregate-to-storage-admin": "true"
+      }
+    }
+  ]
+}
+Processing sudoer
+null
+Processing system:aggregate-to-admin
+null
+Processing system:aggregate-to-edit
+null
+Processing system:aggregate-to-view
+null
+Processing system:auth-delegator
+null
+Processing system:basic-user
+null
+Processing system:build-strategy-custom
+null
+Processing system:build-strategy-docker
+null
+Processing system:build-strategy-jenkinspipeline
+null
+Processing system:build-strategy-source
+null
+Processing system:certificates.k8s.io:certificatesigningrequests:nodeclient
+null
+Processing system:certificates.k8s.io:certificatesigningrequests:selfnodeclient
+null
+Processing system:certificates.k8s.io:kube-apiserver-client-approver
+null
+Processing system:certificates.k8s.io:kube-apiserver-client-kubelet-approver
+null
+Processing system:certificates.k8s.io:kubelet-serving-approver
+null
+Processing system:certificates.k8s.io:legacy-unknown-approver
+null
+Processing system:controller:attachdetach-controller
+null
+Processing system:controller:certificate-controller
+null
+Processing system:controller:clusterrole-aggregation-controller
+null
+Processing system:controller:cronjob-controller
+null
+Processing system:controller:daemon-set-controller
+null
+Processing system:controller:deployment-controller
+null
+Processing system:controller:disruption-controller
+null
+Processing system:controller:endpoint-controller
+null
+Processing system:controller:endpointslice-controller
+null
+Processing system:controller:endpointslicemirroring-controller
+null
+Processing system:controller:expand-controller
+null
+Processing system:controller:generic-garbage-collector
+null
+Processing system:controller:horizontal-pod-autoscaler
+null
+Processing system:controller:job-controller
+null
+Processing system:controller:namespace-controller
+null
+Processing system:controller:node-controller
+null
+Processing system:controller:operator-lifecycle-manager
+null
+Processing system:controller:persistent-volume-binder
+null
+Processing system:controller:pod-garbage-collector
+null
+Processing system:controller:pv-protection-controller
+null
+Processing system:controller:pvc-protection-controller
+null
+Processing system:controller:replicaset-controller
+null
+Processing system:controller:replication-controller
+null
+Processing system:controller:resourcequota-controller
+null
+Processing system:controller:root-ca-cert-publisher
+null
+Processing system:controller:route-controller
+null
+Processing system:controller:service-account-controller
+null
+Processing system:controller:service-controller
+null
+Processing system:controller:statefulset-controller
+null
+Processing system:controller:ttl-controller
+null
+Processing system:deployer
+null
+Processing system:discovery
+null
+Processing system:heapster
+null
+Processing system:image-auditor
+null
+Processing system:image-builder
+null
+Processing system:image-pruner
+null
+Processing system:image-puller
+null
+Processing system:image-pusher
+null
+Processing system:image-signer
+null
+Processing system:kube-aggregator
+null
+Processing system:kube-controller-manager
+null
+Processing system:kube-dns
+null
+Processing system:kube-scheduler
+null
+Processing system:kubelet-api-admin
+null
+Processing system:master
+null
+Processing system:monitoring
+null
+Processing system:node
+null
+Processing system:node-admin
+null
+Processing system:node-bootstrapper
+null
+Processing system:node-problem-detector
+null
+Processing system:node-proxier
+null
+Processing system:node-reader
+null
+Processing system:oauth-token-deleter
+null
+Processing system:openshift:aggregate-snapshots-to-admin
+null
+Processing system:openshift:aggregate-snapshots-to-basic-user
+null
+Processing system:openshift:aggregate-snapshots-to-storage-admin
+null
+Processing system:openshift:aggregate-snapshots-to-view
+null
+Processing system:openshift:aggregate-to-admin
+null
+Processing system:openshift:aggregate-to-basic-user
+null
+Processing system:openshift:aggregate-to-cluster-reader
+null
+Processing system:openshift:aggregate-to-edit
+null
+Processing system:openshift:aggregate-to-storage-admin
+null
+Processing system:openshift:aggregate-to-view
+null
+Processing system:openshift:cloud-credential-operator:cluster-reader
+null
+Processing system:openshift:cluster-config-operator:cluster-reader
+null
+Processing system:openshift:cluster-samples-operator:cluster-reader
+null
+Processing system:openshift:controller:build-config-change-controller
+null
+Processing system:openshift:controller:build-controller
+null
+Processing system:openshift:controller:check-endpoints
+null
+Processing system:openshift:controller:check-endpoints-crd-reader
+null
+Processing system:openshift:controller:check-endpoints-node-reader
+null
+Processing system:openshift:controller:cluster-quota-reconciliation-controller
+null
+Processing system:openshift:controller:default-rolebindings-controller
+null
+Processing system:openshift:controller:deployer-controller
+null
+Processing system:openshift:controller:deploymentconfig-controller
+null
+Processing system:openshift:controller:horizontal-pod-autoscaler
+null
+Processing system:openshift:controller:image-import-controller
+null
+Processing system:openshift:controller:image-trigger-controller
+null
+Processing system:openshift:controller:machine-approver
+null
+Processing system:openshift:controller:namespace-security-allocation-controller
+null
+Processing system:openshift:controller:origin-namespace-controller
+null
+Processing system:openshift:controller:pv-recycler-controller
+null
+Processing system:openshift:controller:resourcequota-controller
+null
+Processing system:openshift:controller:service-ca
+null
+Processing system:openshift:controller:service-ingress-ip-controller
+null
+Processing system:openshift:controller:service-serving-cert-controller
+null
+Processing system:openshift:controller:serviceaccount-controller
+null
+Processing system:openshift:controller:serviceaccount-pull-secrets-controller
+null
+Processing system:openshift:controller:template-instance-controller
+null
+Processing system:openshift:controller:template-instance-finalizer-controller
+null
+Processing system:openshift:controller:template-service-broker
+null
+Processing system:openshift:controller:unidling-controller
+null
+Processing system:openshift:discovery
+null
+Processing system:openshift:kube-controller-manager:gce-cloud-provider
+null
+Processing system:openshift:machine-config-operator:cluster-reader
+null
+Processing system:openshift:openshift-controller-manager
+null
+Processing system:openshift:openshift-controller-manager:ingress-to-route-controller
+null
+Processing system:openshift:public-info-viewer
+null
+Processing system:openshift:scc:anyuid
+null
+Processing system:openshift:scc:hostaccess
+null
+Processing system:openshift:scc:hostmount
+null
+Processing system:openshift:scc:hostnetwork
+null
+Processing system:openshift:scc:nonroot
+null
+Processing system:openshift:scc:privileged
+null
+Processing system:openshift:scc:restricted
+null
+Processing system:openshift:templateservicebroker-client
+null
+Processing system:openshift:tokenreview-openshift-controller-manager
+null
+Processing system:openshift:useroauthaccesstoken-manager
+null
+Processing system:persistent-volume-provisioner
+null
+Processing system:public-info-viewer
+null
+Processing system:registry
+null
+Processing system:router
+null
+Processing system:scope-impersonation
+null
+Processing system:sdn-manager
+null
+Processing system:sdn-reader
+null
+Processing system:service-account-issuer-discovery
+null
+Processing system:volume-scheduler
+null
+Processing system:webhook
+null
+Processing view
+{
+  "clusterRoleSelectors": [
+    {
+      "matchLabels": {
+        "rbac.authorization.k8s.io/aggregate-to-view": "true"
+      }
+    }
+  ]
+}
+Processing whereabouts-cni
+null
